@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #ffffff;
+    
+  }
+  .required:after {
+    content:"*";
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.2em;
+   
+  }
+  form{
+     text-align:left;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .checked {
+    color: orange;
+  }
+  .one,.two{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  th, td {
+    text-align: center;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  tr:nth-child(even) {
+    background-color: #0f8080;
+  }
+  .zero{
+    margin-left: 20px;
+  }
+  .final{
+    width:50%;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+  }
+  @media screen and (max-width: 600px) {
+  
+  }
